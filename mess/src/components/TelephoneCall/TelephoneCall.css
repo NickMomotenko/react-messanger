@@ -1,0 +1,66 @@
+.telephone-call{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #437cd8;
+}
+
+.telephone-call__avatar{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.telephone-call__avatar-pic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.telephone-call__info{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    font-size: 30px;
+}
+
+.telephone-call__number{
+    font-weight: 400;
+    color: #fff;
+    font-size: 25px;
+}
+
+.telephone-call__button{
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 35px;
+}
+
+.telephone-call__button-down{
+    background: red;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.telephone-call__counter{
+    color: #fff;
+    font-size: 17px;
+}

@@ -1,0 +1,32 @@
+.friends__label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.friends__option-button{
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: blue;
+    font-size: 14px;
+}
+
+.friends__info{
+    display: flex;
+}
+
+.friends__list{
+    margin-top: 20px;
+}
+
+.friends__contacts{
+    margin-top: 23px;
+}
+
+
+.friends__contacts:first-child{
+    margin-top: 0;
+}

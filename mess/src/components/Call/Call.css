@@ -1,0 +1,36 @@
+.call{
+    align-self: center;
+}
+
+.call .contacts__data-time{
+    margin-top: 5px;
+}
+
+.call__button{
+    border:none;
+    outline: none;
+    background-color: transparent;
+}
+
+.call__button:last-child{
+    margin-left: 10px;
+}
+
+.call__info{
+    display: flex;
+}
+
+.call__contacts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+
+.call__contacts:first-child{
+    margin-top: 0;
+}
+
+.call__icon{
+    max-width: 100%;
+    max-height: 100%;
+}

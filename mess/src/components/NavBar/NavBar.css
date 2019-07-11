@@ -1,0 +1,43 @@
+.nav-bar{
+    margin-top: 10px;
+}
+
+.nav-bar__list{
+    display: flex;
+}
+
+.nav-bar__item{
+    width: calc(100%/4);
+    margin-right: 10px;
+    text-align: center;
+}
+
+.nav-bar__item:last-child{
+    margin-right: 0;
+}
+
+.nav-bar__link{
+    display: block;
+    padding: 7px 0;
+    transition: .4s;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-bar__link:hover{
+    opacity: .8;
+}
+
+.nav-bar__icon{
+    height: 17px;
+    width: 17px;
+    display: inline-block;
+}
+
+.nav-bar__icon-pic{
+   max-width: 100%;
+   max-height: 100%;
+}
+
+.active{
+    border-bottom-color: #fff;
+}
